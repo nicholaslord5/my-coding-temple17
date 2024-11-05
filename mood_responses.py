@@ -1,7 +1,8 @@
  # mood_responses.py
 def mood_response(mood):
+        mood = mood.lower()
         if mood == "happy":
-            return "That's awesome! Keept the good times rolling!"
+            return "That's awesome! Keep the good times rolling!"
         elif mood == "sad" or mood == "down":
             return "It's ok, we all feel that way sometimes. Wanna talk about it?"
         elif mood == "angry" or mood == "mad":
